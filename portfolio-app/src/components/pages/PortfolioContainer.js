@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Header from "./component/Header.js";
+import Navbar from "./component/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -27,7 +27,7 @@ class Portfolio extends Component {
   render() {
     return (
       <div>
-        <Header
+        <Navbar
           currentPage={this.state.currentPage}
           handlePageChange={this.handlePageChange}
         />
