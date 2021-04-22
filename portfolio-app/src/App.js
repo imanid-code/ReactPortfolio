@@ -9,47 +9,54 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
-import Portfolio from "./components/pages/Portfolio";
+import PortfolioContainer from "./components/pages/PortfolioContainer";
 import './App.css';
 
-class App extends Component  {
-  //setting this.state.portfolio to the  portfolio json arra
-  state = {
-    portfolio
-  };
+
+function App () {
+  return   <PortfolioContainer/>;
+}
+
+export default App; 
+// class App extends Component  {
+//   //setting this.state.portfolio to the  portfolio json array
+//   state = {
+//     portfolio
+//   };
+//   //set portfolio state to what? 
   
-  //Map over this.state.portfolio and render a PorttfolioCard component for each portfolio object 
-  render() {
-  return (
+//   //Map over this.state.portfolio and render a PorttfolioCard component for each portfolio object 
+//   render() {
+//   return (
    
-   <Wrapper>
-<Header/>
-<Router>
-  <div>
-  <Route exact path="/" component={Home} />
-  <Route exact path="/About" component={About} />
-  <Route exact path="/contact" component={Contact} />
-  <Route exact path="/Portfolio" component={Portfolio} />
+//    <Wrapper>
+// <Header>
+// <Router>
+//   <div>
+//   <Route exact path="/" component={Home} />
+//   <Route exact path="/About" component={About} />
+//   <Route exact path="/contact" component={Contact} />
+//   <Route exact path="/Portfolio" component={Portfolio} />
 
-  </div>
-</Router>
+//   </div>
+// </Router>
+// </Header>
 
 
-
-{this.state.portfolio.map(portfolio => (
-  <ProjectCard
-  id={portfolio.id}
-  key={portfolio.id}
-  name={portfolio.projectname}
-  image={portfolio.image}
-  description={portfolio.description}
-  repository={portfolio.repo}
-  livedeployment={portfolio.livedeployment}
-  />
-))}
-<Footer/>
-   </Wrapper>
-  );
-}
-}
-export default App;
+// {this.state.portfolio.map(portfolio => (
+//   <ProjectCard
+//   id={portfolio.id}
+//   key={portfolio.id}
+//   name={portfolio.projectname}
+//   image={portfolio.image}
+//   description={portfolio.description}
+//   repository={portfolio.repo}
+//   livedeployment={portfolio.livedeployment}
+//   />
+// ))}
+// <Footer/>
+//    </Wrapper>
+//   );
+// }
+// }
+// export default App;
