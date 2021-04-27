@@ -1,5 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "../NavBar/nav.css"
 
 function NavTabs() {
   // We'll go into the Hooks API later, for now, we are just using some code
@@ -24,28 +26,14 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/blog"
-          className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
-        >
-          Portfolio
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
           to="/contact"
           className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
         >
           Contact
         </Link>
       </li>
-      <li className="nav-item">
-        <Link
-          to="/contact/learn"
-          className={location.pathname === "/contact/learn" ? "nav-link active" : "nav-link"}
-        >
-          Learn
-        </Link>
-      </li>
+      
+  
     </ul>
   );
 }

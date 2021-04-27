@@ -1,9 +1,9 @@
 import React from "react";
-import profilepic2 from "./profilepic2.png";
-import unc from "./unc.jpeg";
-import uncc from "./uncc.jpeg";
-import skills from "./skills.png";
-
+import profilepic2 from "../../assets/profilepic2.png";
+import unc from "../../assets/unc.jpeg";
+import uncc from "../../assets/uncc.jpeg";
+import skills from "../../assets/skills.png";
+import "../pages/about.css"
 
 const About = () => (
 
@@ -14,7 +14,7 @@ const About = () => (
       <div className="content">
      <p>As a Full Stack Web Developer, I am efficient in both the front and back end of web development. In addition to web development I can produce, engineer, analyze, program and design programs and websites. As a former math teacher I am proficient with numbers , equations , arithmetic and geometry. </p>
    </div>
-         
+    
    <div className="card">
     <div className="img-container">
     <img src={unc} alt="unc" />
@@ -29,8 +29,7 @@ const About = () => (
  <div className="card">
     <div className="img-container">
     <img src={skills} alt="skills" />
-    {/* styling overflow: scroll; 
-   height: 350px; */}
+   
       </div>
       <div className="content">
       <ul class="card-text">
@@ -64,6 +63,7 @@ const About = () => (
          </li>
       </ul>
     </div>
+  
   
 
  </div>

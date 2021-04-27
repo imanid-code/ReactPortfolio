@@ -1,4 +1,5 @@
 import React from "react";
+import "../ProjectCard/card.css";
 
 function PortfolioCard(props){
     return (
@@ -11,17 +12,17 @@ function PortfolioCard(props){
                       <li>
                           <strong>Name: </strong> {props.projectname}
                       </li>
-                      <li>
+                      {/* <li>
                           <strong>Image: </strong> {props.image}
-                      </li>
+                      </li> */}
                       <li>
                           <strong>Description: </strong> {props.description}
                       </li>
                       <li>
-                          <strong>Repository: </strong> {props.repo}
+                          <strong><a href= {props.repo}> Github Repository Link: </a>  </strong> 
                       </li>
                       <li>
-                          <strong>LiveDeployment: </strong> {props.livedeployment}
+                          <strong><a href= {props.livedeployment}>LiveDeployment: </a>  </strong> 
                       </li>
                   </ul>
                   </div> 

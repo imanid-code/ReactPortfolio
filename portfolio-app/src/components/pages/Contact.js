@@ -1,5 +1,5 @@
 import React from "react";
-import contact from "./contact.jpeg";
+import contact from "../../assets/contact.jpeg";
 
 const Contact = () => (
     <div className="card">
