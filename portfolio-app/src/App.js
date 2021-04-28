@@ -7,30 +7,22 @@ import Contact from "./components/pages/Contact";
 import Navbar from "./components/NavBar";
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
-import './App.css';
+import "./App.css";
 
-
-function App () {
-  return  (
-    
-    
+function App() {
+  return (
     <Router>
       <Navbar />
       <Wrapper>
-     <Switch>
-     <Route exact path="/" component={Home} />
-       <Route exact path="/About" component={About} />
-      <Route exact path="/contact" component={Contact} />
-       
-    
-     </Switch>
-     </Wrapper>
-     <Footer />
-     </Router>
-     
-  )
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/About" component={About} />
+          <Route exact path="/contact" component={Contact} />
+        </Switch>
+      </Wrapper>
+      <Footer />
+    </Router>
+  );
 }
 
-export default App; 
-
-
+export default App;

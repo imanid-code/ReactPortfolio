@@ -1,9 +1,10 @@
 import React from "react";
-import "../ProjectCard/card.css";
+import "../ProjectCard/card.css"
 
 function PortfolioCard(props){
     return (
-        <div className="card">
+      
+        <div className="project-card card">
           <div className="img-container">
          <img alt={props.projectname} src={props.image} />     
               </div> 
@@ -27,6 +28,7 @@ function PortfolioCard(props){
                   </ul>
                   </div> 
         </div>
+        
     )
 }
 
