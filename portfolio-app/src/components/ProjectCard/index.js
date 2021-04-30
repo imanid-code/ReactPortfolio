@@ -6,7 +6,7 @@ function PortfolioCard(props){
       
         <div className="project-card card">
           <div className="img-container">
-         <img alt={props.projectname} src={props.image} />     
+         <img alt={props.projectname} src={`${process.env.PUBLIC_URL}${props.image}`} />     
               </div> 
               <div className="content">
                   <ul>

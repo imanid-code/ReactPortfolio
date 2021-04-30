@@ -1,5 +1,5 @@
 import React from "react";
-import contact from "../../assets/contact.jpeg";
+
 import "../pages/contact.css";
 
 
@@ -7,7 +7,7 @@ const Contact = () => (
     <>
     <div className="contact-card card">
       <div className="img-container">
-      <img src={contact} alt="contact" />
+      <img src={`${process.env.PUBLIC_URL}/assets/contact.jpeg`} alt="contact" />
       </div>
       <div className="content">
       <a href={"mailto:imanidillahunt@gmail.com"}>Email</a>

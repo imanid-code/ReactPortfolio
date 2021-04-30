@@ -2,7 +2,7 @@
     {
         "id": 1,
         "projectname": "Password Generator",
-        "image": "../img/password.png",
+        "image": "/img/password.png",
         "description": "To create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code.",
         "repo": "https://github.com/imanid-code/Password-Generator-hw3",
         "livedeployment": "https://imanid-code.github.io/Password-Generator-hw3/"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "projectname": "Work Day Scheduler",
-        "image": "../img/workday.png",
+        "image": "/img/workday.png",
         "description": "Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. ",
         "repo": "https://github.com/imanid-code/WorkDay-Scheduler",
         "livedeployment": "https://imanid-code.github.io/WorkDay-Scheduler/"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "projectname": "Weather Dashboard",
-        "image": "../img/weather.png",
+        "image": "/img/weather.png",
         "description": " Your challenge is to build a weather dashboard that will run in the browser and feature dynamically updated HTML and CSS. ",
         "repo": "https://github.com/imanid-code/Weather-Dashboard",
         "livedeployment": "https://imanid-code.github.io/Weather-Dashboard/"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "projectname": "Munchies",
-        "image": "../img/munchies.png",
+        "image": "/img/munchies.png",
         "description": "This application allows a user to save his or her favorite food/drinks in restaurants. ",
         "repo": "https://github.com/imanid-code/Munchies",
         "livedeployment": "https://project2-teamfive.herokuapp.com/"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "projectname": "Express Notetaker",
-        "image": "../img/notetaker.png",
+        "image": "/img/notetaker.png",
         "description": "Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file. ",
         "repo": "https://github.com/imanid-code/Express.Notetaker",
         "livedeployment": "https://expressnotetaker0224.herokuapp.com/"
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "projectname": "Employee Directory",
-        "image": "../img/employeedirectory.png",
+        "image": "/img/employeedirectory.png",
         "description": " To create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.        ",
         "repo": "https://github.com/imanid-code/EmployeeDirectory",
         "livedeployment": "https://imanid-code.github.io/EmployeeDirectory/"
@@ -50,7 +50,7 @@
     {
         "id": 7,
         "projectname": "Mongoose Fitness Tracker",
-        "image": "../img/workout.png",
+        "image": "/img/workout.png",
         "description": " This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.",
         "repo": "https://github.com/imanid-code/FitnessTracker",
         "livedeployment": "https://mongoosefitnesstracker.herokuapp.com/?id=60710bc5e1969c00156440c6"
@@ -58,7 +58,7 @@
     {
         "id": 8,
         "projectname": "Offline Budger Tracker",
-        "image": "../img/budgettracker.png",
+        "image": "/img/budgettracker.png",
         "description": " Add functionality to our existing Budget Tracker application to allow for offline access and functionality.  The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online." ,
         "repo": "https://github.com/imanid-code/Online-Offline-Budget-Tracker",
         "livedeployment": "https://budgettrackeronoffline.herokuapp.com/"

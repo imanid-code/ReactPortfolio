@@ -1,15 +1,11 @@
 import React from "react";
-import profilepic2 from "../../assets/profilepic2.png";
-import unc from "../../assets/unc.jpeg";
-import uncc from "../../assets/uncc.jpeg";
-import skills from "../../assets/skills.png";
 import "../pages/about.css";
 
 const About = () => (
   <>
     <div className="about-card card">
       <div className="img-container">
-        <img src={profilepic2} alt="profile2" />
+        <img src={`${process.env.PUBLIC_URL}/assets/profilepic2.png`} alt="profile2" />
       </div>
       <div className="content">
         <p>
@@ -23,8 +19,8 @@ const About = () => (
     </div>
     <div className="about-card card">
         <div className="img-container">
-          <img src={unc} alt="unc" />
-          <img src={uncc} alt="uncc" />
+          <img src={`${process.env.PUBLIC_URL}/assets/unc.jpeg`} alt="unc" />
+          <img src={`${process.env.PUBLIC_URL}/assets/uncc.jpeg`} alt="uncc" />
         </div>
         <div className="content">
           <p>
@@ -38,7 +34,7 @@ const About = () => (
       
       <div className="about-card card">
         <div className="img-container">
-          <img src={skills} alt="skills" />
+          <img src={`${process.env.PUBLIC_URL}/assets/skills.png`} alt="skills" />
         </div>
         <div className="content">
           <ul class="card-text">

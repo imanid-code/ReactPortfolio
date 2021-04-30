@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <Wrapper>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/ReactPortfolio" component={Home} />
           <Route exact path="/About" component={About} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
