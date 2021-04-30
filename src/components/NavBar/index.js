@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "../NavBar/nav.css"
+import "./nav.css"
 
 function NavTabs() {
   // We'll go into the Hooks API later, for now, we are just using some code

@@ -1,5 +1,5 @@
 import React from "react";
-import "../ProjectCard/card.css"
+import "./card.css"
 
 function PortfolioCard(props){
     return (
